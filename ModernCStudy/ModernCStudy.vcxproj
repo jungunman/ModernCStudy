@@ -139,6 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\source\repos\ModernCStudy\modun\arrow.cpp" />
+    <ClCompile Include="..\..\..\..\source\repos\ModernCStudy\modun\BitShiftExample.cpp" />
+    <ClCompile Include="..\..\..\..\source\repos\ModernCStudy\modun\Completed Numbers.cpp" />
+    <ClCompile Include="..\..\..\..\source\repos\ModernCStudy\modun\PointerEaxm.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
