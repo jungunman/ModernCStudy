@@ -18,16 +18,16 @@
     <ClCompile Include="HelloWorld.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\source\repos\ModernCStudy\modun\PointerEaxm.cpp">
+    <ClCompile Include="PointerExam.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\source\repos\ModernCStudy\modun\arrow.cpp">
+    <ClCompile Include="CompletedNumbers.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\source\repos\ModernCStudy\modun\BitShiftExample.cpp">
+    <ClCompile Include="BitShiftExam.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\source\repos\ModernCStudy\modun\Completed Numbers.cpp">
+    <ClCompile Include="arrow.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
