@@ -54,5 +54,23 @@
     <ClCompile Include="StringMethod.cpp">
       <Filter>소스 파일\Char_Array_String</Filter>
     </ClCompile>
+    <ClCompile Include="StructType.cpp">
+      <Filter>소스 파일\Structure_Type</Filter>
+    </ClCompile>
+    <ClCompile Include="StructExam.cpp">
+      <Filter>소스 파일\Structure_Type</Filter>
+    </ClCompile>
+    <ClCompile Include="StructPointerExam.cpp">
+      <Filter>소스 파일\Structure_Type</Filter>
+    </ClCompile>
+    <ClCompile Include="StructTypeSize.cpp">
+      <Filter>소스 파일\Structure_Type</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionExam.cpp">
+      <Filter>소스 파일\Structure_Type</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumTypeExam.cpp">
+      <Filter>소스 파일\Structure_Type</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
