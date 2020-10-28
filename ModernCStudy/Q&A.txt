@@ -1,1 +1,38 @@
 
+PointerFunction.cpp 에 대한 질문 1
+
+void Local(int&);
+
+int main(void)
+{
+    int var = 10;
+    std::cout << "변수 var의 초깃값은 " << var << "입니다." << std::endl;
+    Local(var); <--------------------------------------------------------이곳은 주소값을 넘겨야 하는 것 아닌가요? &를 사용해서 주소값을 넘겨야하는게 맞다고 보는데 왜 그냥 넣어도 되나요?
+    std::cout << "Local() 함수 호출 후 변수 var의 값은 " << var << "입니다.";
+    return 0;
+
+}
+void Local(int& num)
+{
+    num += 10;
+}
+
+질문 2 : void Local(int*)로 매개변수를 선언할 시, 넘기는 값은 [int* 포인터이름]이어야 하나요? 아니면 [int& 포인터이름]이어야 하나요? 그리고 그 이유는...뭐죠?
+
+질문 3 : 질문 2의 궁금증을 해결하고자 실험하던 도중 포인터 주소를 넘기고 *로 받아오니 잘되더라구요. 근데 포인터 주소를 매개변수로 넘길때 포인터 주소도 다른 메모리에 복사하는 건가요?
+        로컬 내랑 메인 함수에 있는 var의 주소가 다릅니다.
+#include <iostream>
+void Local(int*);
+int main(void)
+{
+    int var = 10;
+    //std::cout << "변수 var의 초깃값은 " << var << "입니다." << std::endl;
+    std::cout << "메인 var의 값은 " << &var << "입니다.";
+    Local(&var);
+    //std::cout << "Local() 함수 호출 후 변수 var의 값은 " << var << "입니다.";
+    return 0;
+}
+void Local(int* num)
+{
+    std::cout << "함수 내 num의 값은 " << &num << " : "<< *num << "입니다.";
+}
