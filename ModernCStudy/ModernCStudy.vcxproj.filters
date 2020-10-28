@@ -13,12 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\PointerExam">
+      <UniqueIdentifier>{0a1bee6d-32c2-46af-85a8-a2351d4153b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Char_Array_String">
+      <UniqueIdentifier>{1a6c0770-d9f0-4420-ba1b-1c8b0ee1dac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Structure_Type">
+      <UniqueIdentifier>{cf7f7527-ee2c-40d1-a10d-4814ad569cbf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="PointerExam.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="CompletedNumbers.cpp">
@@ -30,8 +36,23 @@
     <ClCompile Include="arrow.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="PointerExam.cpp">
+      <Filter>소스 파일\PointerExam</Filter>
+    </ClCompile>
     <ClCompile Include="PointerArray.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\PointerExam</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicAllocation.cpp">
+      <Filter>소스 파일\PointerExam</Filter>
+    </ClCompile>
+    <ClCompile Include="Char_Array.cpp">
+      <Filter>소스 파일\Char_Array_String</Filter>
+    </ClCompile>
+    <ClCompile Include="StringExam.cpp">
+      <Filter>소스 파일\Char_Array_String</Filter>
+    </ClCompile>
+    <ClCompile Include="StringMethod.cpp">
+      <Filter>소스 파일\Char_Array_String</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
