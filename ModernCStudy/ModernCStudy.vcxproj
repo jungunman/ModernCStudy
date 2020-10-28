@@ -148,6 +148,8 @@
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="PointerArray.cpp" />
     <ClCompile Include="PointerExam.cpp" />
+    <ClCompile Include="PointerFunction.cpp" />
+    <ClCompile Include="Recursive_Call.cpp" />
     <ClCompile Include="StringExam.cpp" />
     <ClCompile Include="StringMethod.cpp" />
     <ClCompile Include="StructExam.cpp" />

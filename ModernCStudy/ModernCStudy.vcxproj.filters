@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\Structure_Type">
       <UniqueIdentifier>{cf7f7527-ee2c-40d1-a10d-4814ad569cbf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Function">
+      <UniqueIdentifier>{11100e3f-caf1-4c05-8178-6056531a178d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -71,6 +74,12 @@
     </ClCompile>
     <ClCompile Include="EnumTypeExam.cpp">
       <Filter>소스 파일\Structure_Type</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerFunction.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursive_Call.cpp">
+      <Filter>소스 파일\Function</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
