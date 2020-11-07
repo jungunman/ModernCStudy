@@ -147,6 +147,7 @@
     <ClCompile Include="DynamicAllocation.cpp" />
     <ClCompile Include="EnumTypeExam.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="minesweeperMemoryHacking.cpp" />
     <ClCompile Include="PointerArray.cpp" />
     <ClCompile Include="PointerExam.cpp" />
     <ClCompile Include="PointerFunction.cpp" />

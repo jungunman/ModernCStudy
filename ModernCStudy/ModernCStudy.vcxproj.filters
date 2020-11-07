@@ -90,5 +90,8 @@
     <ClCompile Include="broodwarMemoryHacking.cpp">
       <Filter>소스 파일\MemoryHacking</Filter>
     </ClCompile>
+    <ClCompile Include="minesweeperMemoryHacking.cpp">
+      <Filter>소스 파일\MemoryHacking</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
