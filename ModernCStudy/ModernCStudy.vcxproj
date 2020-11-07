@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="arrow.cpp" />
     <ClCompile Include="BitShiftExam.cpp" />
+    <ClCompile Include="broodwarMemoryHacking.cpp" />
     <ClCompile Include="Char_Array.cpp" />
     <ClCompile Include="CompletedNumbers.cpp" />
     <ClCompile Include="DynamicAllocation.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="PointerArray.cpp" />
     <ClCompile Include="PointerExam.cpp" />
     <ClCompile Include="PointerFunction.cpp" />
+    <ClCompile Include="PointerFunctionTest.cpp" />
     <ClCompile Include="Recursive_Call.cpp" />
     <ClCompile Include="StringExam.cpp" />
     <ClCompile Include="StringMethod.cpp" />

@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Function">
       <UniqueIdentifier>{11100e3f-caf1-4c05-8178-6056531a178d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\MemoryHacking">
+      <UniqueIdentifier>{80155acc-cbeb-4578-ad2a-86ccc6b4edb0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -80,6 +83,12 @@
     </ClCompile>
     <ClCompile Include="Recursive_Call.cpp">
       <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerFunctionTest.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="broodwarMemoryHacking.cpp">
+      <Filter>소스 파일\MemoryHacking</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
