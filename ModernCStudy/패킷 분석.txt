@@ -1,0 +1,42 @@
+#####Request
+
+GET /~fdc/sample.html HTTP/1.1
+	Request Method: GET  //메소드 GET
+	Request URI: /~fdc/sample.html //경로
+	Request Version: HTTP/1.1 //Http/1.1 버전
+
+Host: www.columbia.edu //URL
+Connection: keep-alive // 연결된 소켓에 In/Out의 접근(access)이 마지막으로 종료된 시점부터 정의된 시간까지 access가 없더라도 대기하는 것.
+Cache-Control: max-age=0 // 캐시 최대 수명 0 
+Upgrade-Insecure-Requests: 1 // 업그레이드 메커니즘 지원 신호 요청
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 //모질라/5.0 호환가능, 사파리, 애플, 크롬 호환
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+Accept-Encoding: gzip, deflate //인코딩 gzip
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7 //한국어
+Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1730689920.20480.0000 //쿠키 셋팅되어있음.
+Cookie pair: BIGipServer~CUIT~www.columbia.edu-80-pool=1730689920.20480.0000
+If-Modified-Since: Sun, 13 Sep 2020 11:32:26 GMT\r\n
+
+
+#####Response
+
+HTTP/1.1 200 OK // 통신 성공
+Response Version: HTTP/1.1
+	Status Code: 200 // 성공
+	[Status Code Description: OK]
+	Response Phrase: OK
+
+Date: Sun, 08 Nov 2020 13:49:59 GMT\r\n
+Server: Apache //아파치 사용하고 있음
+Last-Modified: Sun, 13 Sep 2020 11:32:26 GMT //최종 수정일 및 시간
+Accept-Ranges: bytes //바이트 범위
+Vary: Accept-Encoding,User-Agent //캐시된 응답을 향후 요청들에서 오리진 서버로 '새로운 요청 헤더'를 대신 사용할 수 있는지 여부를 결정
+Content-Encoding: gzip //인코딩 gzip
+Content-Length: 10147 //컨텐츠 길이 10147
+	[Content length: 10147]
+
+Keep-Alive: timeout=15, max=100 //대기(생명) 주기
+Connection: Keep-Alive //대기
+Content-Type: text/html //text/html기반 콘텐츠
+Set-Cookie: BIGipServer~CUIT~www.columbia.edu-80-pool=1730689920.20480.0000; expires=Sun, 08-Nov-2020 19:49:59 GMT; path=/; Httponly //쿠키를 셋팅한다.

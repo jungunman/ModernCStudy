@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\MemoryHacking">
       <UniqueIdentifier>{80155acc-cbeb-4578-ad2a-86ccc6b4edb0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Network">
+      <UniqueIdentifier>{2aae568d-4be5-4edd-a9c9-d36e592b1ccd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -93,5 +96,10 @@
     <ClCompile Include="minesweeperMemoryHacking.cpp">
       <Filter>소스 파일\MemoryHacking</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="패킷 분석.txt">
+      <Filter>소스 파일\Network</Filter>
+    </Text>
   </ItemGroup>
 </Project>
